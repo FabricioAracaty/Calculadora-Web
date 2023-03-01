@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background-image: url(https://i1.wp.com/pixahive.com/wp-content/uploads/2021/03/golden-texture-background2-392425-pixahive.jpg?fit=2560%2C1440&ssl=1);
+    background-size: 100%;
+    padding: 15px;
+    border-radius: 30px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.699), 5px 5px 15px rgba(0, 0, 0, 0.582);
+    background: url(https://media.istockphoto.com/id/928819670/vector/black-metal-texture-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=Kj4OgGEfxREgPTfPLN2Kq1wj6faCgf4rBxHrDB8ewo0=);
+    background-size: 200%;
+    font-size:  20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.calculator input:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    color: #b9b871;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
